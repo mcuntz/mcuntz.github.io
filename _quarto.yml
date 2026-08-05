@@ -12,16 +12,20 @@ website:
   site-url: https://mcuntz.github.io/fastforest/
   repo-url: https://github.com/mcuntz/fastforest
   favicon: images/fastforest_logo.png
-  ## Announcement bar
-  announcement:
-    icon: info-circle
-    dismissable: true
-    content: "**PhD position available** - see [PhD_SIF_long_en.pdf](images/PhD_SIF_long_en.pdf)"
-    type: primary
-    position: below-navbar
-  #  sidebar: not nice
-  #    contents: auto
-  ## Navbar menu
+  #
+  # # Announcement bar
+  # announcement:
+  #   icon: info-circle
+  #   dismissable: true
+  #   content: "**PhD position available** - see [PhD_SIF_long_en.pdf](images/PhD_SIF_long_en.pdf)"
+  #   type: primary
+  #   position: below-navbar
+  #
+  # # Sidebar - not nice
+  # sidebar:
+  #   contents: auto
+  #
+  # Navbar menu
   navbar:
     logo: images/fastforest_logo.png
     ## left-hand-side of navbar
@@ -97,7 +101,7 @@ website:
             href: "/tools/overview.html#sec-python-tools"
           - text: Other tools
             href: "/tools/overview.html#sec-other-tools"
-    ## right-hand-side of navbar
+    # right-hand-side of navbar
     right:
       - icon: globe
         menu:
@@ -107,7 +111,8 @@ website:
             href: https://github.com/SebastienBoutry/inrae-project-website
       - icon: github
         href: https://www.github.com/mcuntz/fastforest
-  ## Footer
+  #
+  # Footer
   page-footer:
     left: |
       ![](/images/Republique_Francaise_RVB.png){width=100px} &nbsp; [![](/images/Logo-INRAE_Transparent.png){width=100px}](https://www.inrae.fr/)
@@ -117,7 +122,8 @@ website:
         href: legal_notice.qmd
     right: |
       [![](/images/Logo_UMR_Silva-petit.png){width=100px}](https://silva.nancy.hub.inrae.fr/)
-  ## Margin
+  #
+  # Margin
   margin-footer: |
 
 format:
